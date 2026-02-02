@@ -4,117 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu - Teyvat Feast</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="st">
 </head>
 <body>
-    <!-- 
+    <!--
         INSTRUCTIONS :
         1. Remplacez "Nom du Restaurant" par le nom de votre choix
         2. Créez une structure sémantique (section, article, header, etc.)
         3. Utilisez des listes (ul/li) pour les items de menu
         4. Ajoutez des classes cohérentes (BEM recommandé)
-
+ 
         Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
     -->
-    
-</body>
-</html>
-
-<header>
+<main>
 <section>
   <article>
-    <h1>Entrées</h1>
+ 
+    <h1>Entrées</h1>  
+    <div class="menu-item">
     <h2>Scented Meat Balls</h2>
+    <p>Prix : <span class="prix">5,99 $</span></p>
+    </div>
+   
     <ul>
-    <li>Un plat à base de viande hachée. Après avoir concassé le blé et l’avoir cuit au feu, on y ajoute de la viande hachée pour former l’enveloppe extérieure.
-     Des oignons et de la viande sont ensuite sautés pour préparer la farce.
+    Un plat à base de viande hachée. Après avoir concassé le blé et l’avoir cuit au feu, on y ajoute de la viande hachée pour former l’enveloppe extérieure.
+   Des oignons et de la viande sont ensuite sautés pour préparer la farce.
     Enfin, le mélange est façonné en boulettes et frit en profondeur jusqu’à ce qu’il soit bien doré.
-    </li> 
     </ul>
-    <h4>Prix</h4>
+   
  </article>
  <article>
-    <h2>Grainfruit Meat Soup</h2>
+   <div class="menu-item">
+   <h2>Grainfruit Meat Soup</h2>
+    <p>Prix : <span class="prix">7,99 $</span></p>
+    </div>
+   
     <ul>
-    <li>Une soupe composée d’un mélange de viande et de légumes.
+    Une soupe composée d’un mélange de viande et de légumes.
     Les clients peuvent choisir parmi une grande variété de bouillons ainsi qu’un large éventail d’accompagnements.
-    </li>
     </ul>
-    <h4>Prix</h4>
+   
  </article>
  <article>
-    <h2>Meatnado</h2> <strong>(Populaire)</strong>
+ <div class="menu-item">
+   <h2>Meatnado</h2>
+    <p>Prix : <span class="prix">9,99 $</span></p>
+    </div>
     <ul>
-    <li>Du bacon et d’autres garnitures sont disposés sur de fines tranches de viande, qui sont ensuite roulées et poêlées jusqu’à ce qu’elles soient bien dorées, puis mijotées dans un bouillon.
-    Une fois le plat terminé et découpé, les tranches de viande restent étroitement enroulées autour de la garniture, tel un tourbillon.
-    </li>
-    </ul>
-    <h4>Prix</h4>
+   Du bacon et d’autres garnitures sont disposés sur de fines tranches de viande, qui sont ensuite roulées et poêlées jusqu’à ce qu’elles soient bien dorées, puis mijotées dans un bouillon.
+   Une fois le plat terminé, les tranches de viande restent étroitement enroulées autour de la garniture, tel un tourbillon.
+</ul>
+   
  
  </article>
 </section>
-</header>
-
+ 
+ 
 <section>
 <article>
     <h1>Plats principaux</h1>
+     <div class="menu-item">
     <h2>Flaming Red Bolognese</h2>
+    <p>Prix : <span class="prix">17,99 $</span></p>
+    </div>
+   
     <ul>
-    <li>
+   
      Des pâtes bolognaises nappées d’une sauce à la viande. Leur arôme riche, carné et parfumé aux herbes met instantanément l’appétit en éveil.
-    </li> 
+   
     </ul>
-    <h4>Prix</h4>
+   
  </article>
  <article>
-    <h2>Shawarma Wrap</h2>
+    <div class="menu-item">
+   <h2>Shawarma Wrap</h2>
+    <p>Prix : <span class="prix">12,99 $</span></p>
+    </div>
+   
+   
     <ul>
-    <li>
+   
         Un wrap garni de viande rôtie. La viande, découpée d’une broche verticale, est enveloppée dans un pain plat avec des légumes et des sauces.
-    </li>
+   
     </ul>
-    <h4>Prix</h4>
+   
  </article>
  <article>
-    <h2>Udon Noodles</h2> <strong>(Populaire)</strong>
+    <div class="menu-item">
+   <h2>Udon Noodles</h2> <h3>[Populaire]</h3>
+    <p>Prix : <span class="prix">17,99 $</span></p>
+    </div>
     <ul>
-    <li>
     Des nouilles très élastiques. Après plusieurs phases de levée et d’étirage, on obtient des nouilles soyeuses et lisses, tout en restant délicieusement rebondissantes. Contrairement au ramen, qui met l’accent sur des saveurs intenses, les nouilles udon privilégient des goûts légers pour apaiser l’âme.
-    </li>
     </ul>
-    <h4>Prix</h4>
+   
  
  </article>
 </section>
-
+ 
 <section>
 <article>
     <h1>Desserts</h1>
-    <h2>La Lettre a Focalors</h2>
+     <div class="menu-item">
+    <h2>La Lettre a Focalors</h2> <h3>[Populaire]</h3>
+    <p>Prix : <span class="prix">7,55 $</span></p>
+    </div>
     <ul>
-    <li>
     Un petit gâteau, façonné en un long rectangle.Les multiples couches superposées les unes sur les autres constituent une véritable épreuve du savoir-faire du chef.
-    </li> 
     </ul>
-    <h4>Prix</h4>
+   
  </article>
  <article>
-    <h2>Berry Herbal Candy</h2>
+    <div class="menu-item">
+      <h2>Berry Herbal Candy</h2>
+    <p>Prix : <span class="prix">4,99 $</span></p>
+    </div>
     <ul>
-    <li>
-      Une confiserie préparée à partir de fleurs, d’herbes et de baies locales. Ses couleurs éclatantes apportent une petite touche de douceur, aussi bienvenue que réconfortante, au cœur des vastes plaines gelées. 
-    </li>
+      Une confiserie préparée à partir de fleurs, d’herbes et de baies locales. Ses couleurs éclatantes apportent une petite touche de douceur, aussi bienvenue que réconfortante, au cœur des vastes plaines gelées.
     </ul>
-    <h4>Prix</h4>
+   
  </article>
  <article>
-    <h2>Tricolor Dango</h2>
+    <div class="menu-item">
+   <h2>Tricolor Dango</h2>
+    <p>Prix : <span class="prix">6,99 $</span></p>
+    </div>
     <ul>
-    <li>
     Une friandise tendre et moelleuse. Le riz gluant est réduit en poudre, façonné en boulettes, puis cuit à la vapeur. Les couleurs de la fleur de cerisier et du muflier apportent une touche de vivacité supplémentaire à ces dango.
-    </li>
     </ul>
-    <h4>Prix</h4>
+   
  
  </article>
 </section>
+</main>
+</body>
+</html>
